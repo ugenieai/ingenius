@@ -4,11 +4,17 @@ This directory contains MDC-formatted project rules that guide AI assistant beha
 
 ## Rule Files (MDC Format)
 
-### Core Rules
-- **`project-context.mdc`** (Always Applied)
+### Core Rules (Always Applied)
+- **`project-context.mdc`** 
   - Defines Ingenius mission and business context
   - Mission-critical operational requirements
   - Core principles for all development
+
+- **`ugenie-style-guide.mdc`** 
+  - Organization-wide coding standards from main ugenie project
+  - UI component standards and layout guidelines
+  - Performance, security, and accessibility requirements
+  - Ensures consistency across all ugenie.ai projects
 
 ### Auto-Attached Rules (Context-Sensitive)
 - **`typescript-standards.mdc`** - Applied when working with `.ts`/`.tsx` files
@@ -44,6 +50,7 @@ This structure provides:
 - **Consistent development patterns** across the team
 - **Mission-critical operational focus** for ugenie.ai requirements
 - **Modern MDC format** with proper metadata and descriptions
+- **Organization-wide consistency** with main ugenie project standards
 
 ## Usage
 
