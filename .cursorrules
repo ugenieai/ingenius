@@ -1,0 +1,36 @@
+# Ingenius - AI Agent Operations Command Centre for ugenie.ai
+
+## Project Context
+Mission-critical internal dashboard for operational efficiency. Every feature must reduce manual work and improve workflow for the founding team.
+
+## Tech Stack
+Next.js 14+ (App Router), TypeScript (strict), Tailwind CSS, npm
+
+## Code Standards
+- TypeScript strict mode (no `any` types)
+- Functional components with hooks
+- PascalCase for components, kebab-case for files
+- Conventional commits (feat:, fix:, docs:, etc.)
+- Error handling and loading states required
+
+## File Structure  
+- `src/app/` - App Router pages
+- `src/components/` - Reusable components
+- `src/lib/` - Utilities
+- `src/types/` - TypeScript definitions
+
+## UI Principles
+- Professional enterprise dashboard design
+- Real-time data visualization priority
+- Mobile-first responsive design
+- Clear visual hierarchy and feedback
+- Accessibility compliance
+
+## Key Focus Areas
+1. Operational efficiency optimization
+2. Clean, maintainable, self-documenting code  
+3. Proper error handling and edge cases
+4. Performance and scalability
+5. Security for sensitive operational data
+
+See `.cursor/rules.md` for detailed guidelines. 
