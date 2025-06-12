@@ -1,3 +1,7 @@
+# LEGACY: This file is deprecated
+# Modern rules are now in .cursor/rules/ directory using MDC format
+# See: https://docs.cursor.com/context/rules
+
 # Ingenius - AI Agent Operations Command Centre for ugenie.ai
 
 ## Project Context
@@ -33,4 +37,4 @@ Next.js 14+ (App Router), TypeScript (strict), Tailwind CSS, npm
 4. Performance and scalability
 5. Security for sensitive operational data
 
-See `.cursor/rules.md` for detailed guidelines. 
+See `.cursor/rules/` for modern MDC-formatted rules. 
